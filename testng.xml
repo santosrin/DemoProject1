@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="/Users/santoshsrinivas/Documents/DemoProject1/src/test/java/com/test">
+      <classes>
+        <class name="com.test.FBTest">
+            <methods>
+                <include name="fbTitle"/>
+                <include name="fbTitle1"/>
+                <include name="fbTitle2"/>
+            </methods>
+        </class>
+      </classes>
+    </test>
+</suite>

@@ -1,0 +1,13 @@
+<suite name = "Yahoo">
+
+    <test name = "Yahoo app test">
+        <parameter name ="browser" value = "chrome"/>;
+        <parameter name ="url" value = "https://login.yahoo.com"/>;
+        <parameter name ="emailId" value = "santosh310184"/>;
+
+        <classes>
+            <class name="com.parameters.ParameterTest"/>
+        </classes>
+    </test>
+
+</suite>
